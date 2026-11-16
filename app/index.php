@@ -25,8 +25,6 @@ exigir_acesso();
 
 $categorias = categorias();
 
-$temHero = is_file(__DIR__ . '/img/hero.png');
-
 $nCats = count($categorias);
 
 $h3dCats = $nCats
@@ -121,7 +119,7 @@ require __DIR__ . '/php/includes/header.php';
 
     </section>
 
-    <script type="module" src="/js/hero3d.js"></script>
+    <script type="module" src="./js/hero3d.js"></script>
 
     <!-- CATEGORIAS -->
     <section class="secao" id="categorias">
